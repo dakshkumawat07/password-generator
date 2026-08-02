@@ -13,6 +13,8 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - 📏 Fixed password length (8 characters)
 - 💻 Beginner-friendly console application
 - ♻️ Clean and readable code
+- 📏 User-defined password length
+- ✅ Input validation (1–100)
 
 ---
 
@@ -28,6 +30,9 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - `<time.h>` Library
 - Basic Program Structure
 - Problem Decomposition
+- User Input (`scanf`)
+- Input Validation
+- Logical Operators (`||`)
 
 ---
 
@@ -41,13 +46,16 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - Used `rand()` for random character selection
 - Used `srand(time(NULL))` for different passwords every execution
 
+## ✅ v1.1
+
+- User-defined password length
+- Added input validation (1–100)
+- Replaced fixed password length with user input
+
 ---
 
 # 🔮 Planned Improvements
 
-## ⬜ v1.1
-
-- User-defined password length
 
 ## ⬜ v1.2
 

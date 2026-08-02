@@ -8,9 +8,23 @@ int main()
 
    char letters[] = "abcdefghijklmnopqrstuvwxyz";
 
+   int passwordLength;
+
+   printf("Enter password length: ");
+   scanf("%d", &passwordLength);
+
+   if (passwordLength < 1 || passwordLength > 100)
+   {
+    printf("Invalid password length!\n");
+    return 1;
+   }
+
+
+
    printf("Random Password: ");
 
-   for (int i = 0; i < 8; i++)
+   for (int i = 0; i < passwordLength; i++)
+
    {
     int index = rand() % 26;
     char password = letters[index];
