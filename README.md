@@ -15,6 +15,7 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - ♻️ Clean and readable code
 - 📏 User-defined password length
 - ✅ Input validation (1–100)
+- 🔠 Uppercase alphabet support (`A-Z`)
 
 ---
 
@@ -33,6 +34,9 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - User Input (`scanf`)
 - Input Validation
 - Logical Operators (`||`)
+- sizeof() Operator
+- Avoiding Magic Numbers
+- Maintainable Code
 
 ---
 
@@ -52,14 +56,17 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - Added input validation (1–100)
 - Replaced fixed password length with user input
 
+## ✅ v1.2
+
+- Added uppercase alphabet support (`A-Z`)
+- Combined lowercase and uppercase into a single character pool
+- Used `sizeof()` to calculate character pool size dynamically
+- Eliminated hardcoded array size (magic number)
+
 ---
 
 # 🔮 Planned Improvements
 
-
-## ⬜ v1.2
-
-- Uppercase character support
 
 ## ⬜ v2.0
 

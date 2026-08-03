@@ -6,7 +6,9 @@ int main()
 {
    srand(time(NULL));
 
-   char letters[] = "abcdefghijklmnopqrstuvwxyz";
+   char characters[] =
+
+   "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
    int passwordLength;
 
@@ -26,8 +28,9 @@ int main()
    for (int i = 0; i < passwordLength; i++)
 
    {
-    int index = rand() % 26;
-    char password = letters[index];
+    int index = rand() % (sizeof(characters) - 1);
+
+    char password = characters[index];
 
     printf("%c", password);
    }
