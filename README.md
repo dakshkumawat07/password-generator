@@ -16,6 +16,7 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - 📏 User-defined password length
 - ✅ Input validation (1–100)
 - 🔠 Uppercase alphabet support (`A-Z`)
+- 🔢 Number support (`0-9`)
 
 ---
 
@@ -37,6 +38,8 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - sizeof() Operator
 - Avoiding Magic Numbers
 - Maintainable Code
+- Character Pool Expansion
+- Scalable Program Design
 
 ---
 
@@ -63,14 +66,17 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - Used `sizeof()` to calculate character pool size dynamically
 - Eliminated hardcoded array size (magic number)
 
+## ✅ v2.0
+
+- Added number support (`0-9`)
+- Expanded the character pool to include digits
+- Passwords now contain lowercase letters, uppercase letters, and numbers
+- Character pool size calculated automatically using `sizeof()`
+
 ---
 
 # 🔮 Planned Improvements
 
-
-## ⬜ v2.0
-
-- Number support
 
 ## ⬜ v2.1
 

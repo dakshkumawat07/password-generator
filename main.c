@@ -8,7 +8,7 @@ int main()
 
    char characters[] =
 
-   "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+   "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
    int passwordLength;
 
