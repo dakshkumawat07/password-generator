@@ -17,6 +17,13 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - ✅ Input validation (1–100)
 - 🔠 Uppercase alphabet support (`A-Z`)
 - 🔢 Number support (`0-9`)
+- 🎛️ User-selectable character types
+- 🔡 Lowercase letters (a-z)
+- 🔠 Uppercase letters (A-Z)
+- 🔢 Numbers (0-9)
+- ✨ Special characters (!@#$%^&*)
+- ✅ Prevents password generation when no character type is selected
+
 
 ---
 
@@ -40,6 +47,12 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - Maintainable Code
 - Character Pool Expansion
 - Scalable Program Design
+- String Manipulation (`strcat`)
+- String Length (`strlen`)
+- Dynamic Character Pool
+- Conditional Logic using `if`
+- Character Input (`%c`)
+- Input Validation
 
 ---
 
@@ -73,14 +86,22 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - Passwords now contain lowercase letters, uppercase letters, and numbers
 - Character pool size calculated automatically using `sizeof()`
 
+## ✅ v2.1
+
+- Special character support
+
+✅ v2.2
+- Added user-selectable character types
+- Built the character pool dynamically using `strcat()`
+- Used `strlen()` to calculate the pool size
+- Added validation to ensure at least one character type is selected
+- Passwords are now generated only from the selected character types
+
 ---
 
 # 🔮 Planned Improvements
 
 
-## ⬜ v2.1
-
-- Special character support
 
 ## ⬜ v3.0
 
