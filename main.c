@@ -19,10 +19,24 @@ int main()
    char useNumbers;
    char useSymbols;
 
+
    int passwordLength;
+   int passwordCount;
+
 
    printf("Enter password length: ");
    scanf("%d", &passwordLength);
+
+   printf("How many passwords do you want to generate? ");
+   scanf("%d", &passwordCount);
+
+   if (passwordCount < 1 || passwordCount > 20)
+   {
+    printf("Please enter a number between 1 and 20.\n");
+    return 1;
+   }
+
+
 
    printf("Include uppercase letters? (y/n): ");
    scanf(" %c", &useUpper);
@@ -72,11 +86,12 @@ int main()
    }
 
 
+   for (int p = 1; p <= passwordCount; p++)
+   {
+    printf("Password %d: ", p);
 
-   printf("Random Password: ");
 
    for (int i = 0; i < passwordLength; i++)
-
    {
    int index = rand() % strlen(pool);
 
@@ -87,6 +102,7 @@ int main()
 
     printf("\n");
 
+    }
 
     return 0;
 }

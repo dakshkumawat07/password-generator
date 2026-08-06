@@ -23,7 +23,9 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - 🔢 Numbers (0-9)
 - ✨ Special characters (!@#$%^&*)
 - ✅ Prevents password generation when no character type is selected
-
+- 🔁 Generate multiple passwords in a single run
+- 🏷️ Numbered password output
+- ✅ Validates the number of passwords to generate
 
 ---
 
@@ -52,6 +54,10 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - Dynamic Character Pool
 - Conditional Logic using `if`
 - Character Input (`%c`)
+- Input Validation
+- Nested `for` Loops
+- Loop Nesting
+- Reusing Existing Logic
 - Input Validation
 
 ---
@@ -90,12 +96,20 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 
 - Special character support
 
-✅ v2.2
+## ✅ v2.2
+
 - Added user-selectable character types
 - Built the character pool dynamically using `strcat()`
 - Used `strlen()` to calculate the pool size
 - Added validation to ensure at least one character type is selected
 - Passwords are now generated only from the selected character types
+
+## ✅ v2.3
+
+- Added support for generating multiple passwords
+- Introduced nested `for` loops
+- Added validation for password count (1–20)
+- Improved output formatting with numbered passwords
 
 ---
 
