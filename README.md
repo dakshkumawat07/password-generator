@@ -26,6 +26,8 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - 🔁 Generate multiple passwords in a single run
 - 🏷️ Numbered password output
 - ✅ Validates the number of passwords to generate
+- 🚫 Prevents consecutive duplicate characters
+- 🔄 Automatically regenerates duplicate characters
 
 ---
 
@@ -59,7 +61,10 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - Loop Nesting
 - Reusing Existing Logic
 - Input Validation
-
+- Character Comparison
+- Previous Value Tracking
+- continue Statement
+- Loop Counter Control
 ---
 
 # 🚀 Project Progress
@@ -110,6 +115,14 @@ A beginner-friendly C project built as part of my **C Programming learning journ
 - Introduced nested `for` loops
 - Added validation for password count (1–20)
 - Improved output formatting with numbered passwords
+
+## ✅ v2.4
+
+- Prevented consecutive duplicate characters
+- Added previous character tracking
+- Regenerated characters when a duplicate was detected
+- Used `continue` to retry character generation
+- Maintained the requested password length
 
 ---
 

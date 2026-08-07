@@ -90,6 +90,8 @@ int main()
    {
     printf("Password %d: ", p);
 
+    char previousChar = '\0';
+
 
    for (int i = 0; i < passwordLength; i++)
    {
@@ -97,7 +99,15 @@ int main()
 
     char password = pool[index];
 
+   if (password == previousChar)
+   {
+    i--;
+    continue;
+   }
+
+
     printf("%c", password);
+    previousChar = password;
    }
 
     printf("\n");
